@@ -1,0 +1,111 @@
+<!doctype html>
+<html lan="en">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+</style>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Punderstorm</title>
+</head>
+<body>
+    <nav class="navbar">
+        <!-- <a class="navbar-item" href="#Home">HOME</a> -->
+        <!-- <a class="navbar-item" href="#About">GOAL</a>
+        <a class="navbar-item" href="#Wireframes">USABILITY</a>
+        <a class="navbar-item" href="#StyleGuide">ORGANIZATION</a>
+        <a class="navbar-item" href="#Prototypes">PROTOTYPES</a> -->
+    </nav>
+    <div class="main">
+        <div class="title" id="Home">
+            <h2 class="navbar-title">Punderstorm - A hypertextual story with a witty twist</h2>
+        </div>
+        <div class="first-part">
+            <p id="about-desc">I created this project in Brown's Digital Media class using TWINE, an open-source tool for telling interactive, nonlinear stories.</p><br>
+            <p id="about-desc">Through this exercise, I explored alternative forms of storytelling while putting my passion for puns into practice.</p><br>
+            <p id="about-desc">I hope you enjoy the Punderstorm experience!</p><br>
+            <a href="assets/mcm_twine_project_anonymized.pdf"target="_blank">Click here to view the artist's statement</a></p>
+            <a href="https://2d0ohus0kd.github.io/punderstorm/" target="_blank">Click here to navigate to Punderstorm</a></p>
+            <img src="assets/lighting.gif" alt="Lightning">
+            <!-- <iframe src="/assets/mcm_twine_project_anonymized.pdf" frameborder="0" width="100%" heigh="500px"></iframe> -->
+        <!-- <div> -->
+            <!-- <p id="context">Keep reading for information about the goals of the app, usability principles considered, and implementation decisions</p>
+        </div>
+        <div class="first-part">
+            <p>Below is a screenshot of the app</p>
+            <img id="first-img" src="./assets/development_screenshot.png"></img>
+            <br>
+            <p>I chose a minimalistic design for a clean and accessible user experience
+            </p>
+        </div>
+        </div>
+        <div>
+            <h2 id="context">Goal and Value of the Application</h2>
+        </div>
+        <div class="first-part">
+            <p>Bakery App allows users to add bakery items to their cart, with an aggregator summing items' price to adjust to the cart's contents. </p>
+            <p>By allowing users to filter on types of items (sweet vs savory) and dietary restrictions, they're able to find relevant results more efficiently.</p>
+            <p>With sorting capabilities, users can make financially responsible decisions more easily, as well.
+        </div>
+        <div class="context" id="Wireframes">
+            <h2 id="context">Usability Principles Considered</h2>
+        </div>
+        <div class="first-part">
+            <style>
+                table, th, td {
+                  border:1px solid black;
+                  line-height: 1.5;
+                }
+                </style>
+                <body>
+            <table style="width:50%">
+                <tr>
+                  <th>Principle</th>
+                  <th>Explanation</th>
+                </tr>
+                <tr>
+                  <td>Learnability</td>
+                  <td>With buttons clearly distinct from plain text, and commonplace names (e.g. 'Add' and 'Remove', and 'Filters' and 'Sort by'), our webpage's functionality is easy to learn</td>
+                </tr>
+                <tr>
+                  <td>Memorability</td>
+                  <td>The same principles contributing to the webpage's learnability also strengthen how memorable it is. Users returning to our app will remember that filtering and sorting are at the top while adding and removing occur within each individual item</td>
+                </tr>
+                <tr>
+                  <td>Efficiency</td>
+                  <td>Tasks can be done quickly. For instance, a user wishing to remove all items from their cart, rather than selecting 'Remove' for each individual item can select the 'Reset' button to save time</td>
+                </tr>
+              </table>
+        </div>
+        <div>
+            <p id="context">Organization of Components</p>
+        </div>
+        <div class="bulleted-list">
+            <ul>
+                <li>The component is organized such that each bakery item is a div that contains information such as title, image, price, type, dietary restrictions, etc.</li>
+                <li>I take each item from the dataset passed in through props, as well as the cart, and then I create each bakery item using that information, with that information passed through props.</li>
+                <li>The state the component uses is cart. The filter and sort states aren't passed into the component.</li>
+            </ul>
+        </div>
+        <div>
+            <p id="context">How Data is Passed Down Through Components</p>
+        </div>
+        <div class="first-part">
+            <p>Data is passed into bakeryitem through props, passing in 'item' to represent the different bakery items and 'cart,' 'setCart' to represent data about the updating cart.</p>
+        </div>
+        <div>
+            <p id="context">How the User Triggers State Changes</p>
+        </div>
+        <div class="first-part">
+            <p>As the user clicks on buttons the state changes to reflect those clicks' functionalities. For instance, a user can change the state by clicking 'add,' and then revert to the previous state by selecting 'remove.'</p>
+        </div>
+        <div>
+            <a id="jump" href="#Home">Jump To Top</a>
+        </div> -->
+    </body>
+    </html>
